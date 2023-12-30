@@ -20,7 +20,7 @@ function clickNextButton() {
 }
 
 function updateImage() {
-  image.src = "Images/" + arrImages[currentIndex];
+  image.src = "images/" + arrImages[currentIndex];
 }
 function nextButtonHidden() {
   if (currentIndex === arrImages.length - 1) {
